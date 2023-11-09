@@ -1,0 +1,73 @@
+.App {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.sectionImg{
+  width: 350px;
+  margin-block: 20px;
+}
+.title{
+  font-size: 50px;
+  font-family: Funzi;
+  color: var(--darkPurple-color);
+  letter-spacing: 1px;
+}
+.subject {
+  font-size: 20px;
+  letter-spacing: 1.1px;
+}
+.arrowIcon path{
+  stroke-width: 130px;
+  stop-color: #282c34;
+}
+.arrowIcon{
+  margin-block: 10px;
+}
+.sections{
+  padding: 20px;
+}
+.section2{
+  background-color: var(--darkPurple-color);
+}
+.nxtsecTitle{
+  font-family: viga;
+}
+.factsTitle{
+  font-family: viga;
+  color: var(--white-color);
+  font-size: 28px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+.factsList{
+  color: var(--white-color);
+  font-size: 14px;
+}
+footer{
+  background-color: black;
+}
+.newsletterTitle{
+  color: var(--white-color);
+  font-size: 18px;
+  font-family: viga;
+  letter-spacing: 1px;
+}
+.newsletter{
+  border-radius: 20px;
+  background-color: var(--darkPurple-color);
+}
+.newsletterBtn{
+  background-color: var(--white-color);
+  color: var(--main-color);
+  font-size: 18px;
+  font-family: viga;
+  margin: 5px;
+  outline: none;
+  border: none;
+  border-radius: 0px;
+  padding-inline: 25px;
+}
+.row{
+  overflow: hidden;
+  --bs-gutter-x: 0rem;
+}

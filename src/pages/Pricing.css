@@ -1,0 +1,19 @@
+.price_heading{
+    background: #8E05C2;
+    background-image: url('../assets/img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70px;
+    overflow: hidden;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.priceTab{
+    border: 1px solid #1B1D24;
+    border-radius: 10px;
+}
+.line{
+    width: 100%;
+    border: 1px solid #c4c4c4;
+}

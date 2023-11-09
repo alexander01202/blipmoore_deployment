@@ -1,0 +1,7 @@
+.boxes{
+    border-radius: 40px;
+background: var(--main-color);
+box-shadow:  7px 7px 15px #7f7f7f,
+             -7px -7px 15px #ffffff;
+             overflow: hidden;
+}

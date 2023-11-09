@@ -1,0 +1,57 @@
+.formDiv{
+    align-items:center;
+    justify-content:center;
+    height:100%;
+}
+.user-label{
+    color: var(--white-color);
+    font-size: 20px;
+    letter-spacing: 1.1px;
+}
+.formDiv{
+    padding-block: 30px;
+}
+.form {
+    background-color:var(--darkPurple-color);
+    text-align:left;
+    width:60%
+}
+.input{
+    outline: none;
+    outline-color: transparent;
+    box-shadow:  2px 2px 5px #7f7f7f,
+    -2px -2px 5px var(--main-color);
+    background: transparent;
+    border: none;
+    color: white;
+}
+.form-control:focus{
+    border-color: var(--main-color);
+    box-shadow: none;
+}
+.inputGroup{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.css-13jmfyo-multiValue{
+    background-color: var(--lightPurple-color) !important;
+    color: var(--main-color) !important;
+}
+.css-13jmfyo-multiValue div{
+    color: var(--main-color) !important;
+}
+.cleanerPaySpan{
+    color: var(--white-color);
+    font-family: viga;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 798px) {
+    .form{
+        width: 100%;
+    }
+    .user-label{
+        font-size: 14px;
+    }
+}

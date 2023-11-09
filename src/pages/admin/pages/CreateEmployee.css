@@ -1,0 +1,9 @@
+.GeneratelinkForm{
+    background: var(--darkPurple-color);
+    padding: 20px;
+    height: 60%;
+    width: 50%;
+    color:'white';
+    box-shadow:  7px 7px 15px #7f7f7f,
+    -7px -7px 15px #ffffff;
+}

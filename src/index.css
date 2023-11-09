@@ -1,0 +1,27 @@
+:root {
+  --main-color:#8E05C2;
+  --darkPurple-color:#3E065F;
+  --secondary-color: #1B1D24;
+  --white-color: #F0F0F0;
+  --lightPurple-color: #E0BBEF
+}
+@font-face { font-family: viga; 
+  src: url('../public/Fonts/Viga-Regular.ttf'); 
+} 
+@font-face { font-family: Funzi; 
+  src: url('../public/Fonts/Funzi.ttf'); 
+}  
+@font-face { font-family: Junegull; 
+  src: url('../public/Fonts/junegull.otf'); 
+}  
+@font-face { font-family: Anja; 
+  src: url('../public/Fonts/Anja Eliane.ttf'); 
+}  
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'Arial Rounded MT',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
