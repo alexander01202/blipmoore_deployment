@@ -1,5 +1,5 @@
 nav {
-    /* position: absolute; */
+    z-index: 100;
     top: 0;
     left: 0;
     bottom: 0;
@@ -35,13 +35,15 @@ nav {
   z-index:2;
 }
 .background {
-    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
     width: 300px;
     background: #fff;
+}
+.secondary{
+    font-size: 18px;
 }
 .refresh {
     padding: 10px;
@@ -113,7 +115,7 @@ nav {
 }
 .title{
     font-family:Anja;
-    font-size:30px
+    font-size:45px
 }
 .subtitle{
     padding:5px 10px;
@@ -213,6 +215,11 @@ nav {
     overFlow:hidden;
     padding:20px;
     margin-block: 20px;
+}
+.why{
+    font-size: 28px;
+    font-family: Anja;
+    text-align: center;
 }
 .accordion{
     width: 90%;
@@ -430,6 +437,9 @@ footer{
     .secondary{
         font-size: 30px;
     }
+    .why{
+        font-size: 30px;
+    }
     .container_downloadBtn{
         margin-block: 40px;
     }
@@ -519,6 +529,9 @@ footer{
     }
     .intro{
         width: 50%;
+    }
+    .why{
+        font-size: 34px;
     }
     .mockup_container{
         display: block;

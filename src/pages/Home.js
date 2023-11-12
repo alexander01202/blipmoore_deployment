@@ -243,7 +243,7 @@ export default function Home() {
       </Carousel>
     </section>
     <section style={{ backgroundColor:colors.white,padding:'10px' }}>
-      <h1 style={{ fontFamily:'viga',textAlign:'center',color:colors.purple,fontSize:'32px' }}>Why choose blipmoore?</h1>
+      <h1 className="why" style={{ color:colors.purple }}>Why choose blipmoore?</h1>
       <p className="benefitsBody">Three tangible reasons to chose blipmoore</p>
       <Row style={{ padding:'10px',justifyContent:'center',marginBlock:'20px' }}>
         <Col sm={12} lg={3} md={5} style={{ backgroundColor:colors.white }} className='benefits'>
